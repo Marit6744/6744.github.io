@@ -1,0 +1,42 @@
+body {background-image: url(oeteldonkse-vlag.jpg);
+background-size:77%;
+background-repeat:repeat-x;
+background-attachment:fixed;}
+ul.lijst {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;   border-right:1px solid #bbb;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:RGBa(0,255,0,0.7) ;
+}
+
+.active {
+  background-color: RGBa(0,255,0,0.4);
+}
+table, th, td {
+  border:1px solid black;
+}
+#winnaars2 {
+  float: right;
+  width: 45%;
+}
+#winnaars {
+  float: left;
+  width: 45%;
+}
